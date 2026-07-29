@@ -1,4 +1,4 @@
-{include file="admin/header.tpl"}
+{include file="sections/header.tpl"}
 
 <section class="content-header">
     <form class="form-horizontal" method="post" autocomplete="off" role="form" action="">
@@ -453,7 +453,7 @@ go build -o whatsapp-server
     </div>
 </div>
 
-{include file="admin/footer.tpl"}
+{include file="sections/footer.tpl"}
 
 <script>
     document.addEventListener('DOMContentLoaded', function () {
